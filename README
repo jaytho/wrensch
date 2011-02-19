@@ -1,0 +1,15 @@
+
+Ruby Script to scrape Quarterly Balance Sheet, Income Statement and Cashflow from yahoo finance pages.
+
+Work in progress.
+
+This grabs the table from yahoo and packs it into value name hash.  The intent is to get this directly into an R module or Octave to calculate value and fun graphing.
+
+
+TODO: 
+ - Finish packing into hashes.  
+ - make a class and add init, printing and formatting classes.  
+ - Grab daily trading data too.  
+ - add annual data
+
+
