@@ -4,7 +4,9 @@ require 'mechanize'
 require 'open-uri'
 require 'hpricot'
 require 'date'
-
+#
+# Jams stuff together
+#
 def camelCase(phrase)
   phrase = phrase.scan(/[[:print:]]/).join
   phrase.gsub!(/^[a-z]|\s+[a-z]/) { |a| a.upcase }
